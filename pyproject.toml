@@ -8,6 +8,13 @@ packages = [{from = "src", include = "kaggle_hcdr"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+notebook = "^6.5.4"
+pandas = {extras = ["compression", "computation", "parquet", "performance", "timezone"], version = "^2.0.0"}
+ipympl = "^0.9.3"
+seaborn = "^0.12.2"
+matplotlib = "^3.7.1"
+scikit-learn = "^1.2.2"
+pyyaml = "^6.0"
 
 
 [build-system]
