@@ -878,8 +878,8 @@ data/**/**
 !data/*/*.joblib
 !data/*/*.pickle
 
-notebooks/*
-notebooks/**/**
+# notebooks/*
+# notebooks/**/**
 !notebooks/**/
 !notebooks/**/.gitkeep
 !notebooks/*/*.ipynb
